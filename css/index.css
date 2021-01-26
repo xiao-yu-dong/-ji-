@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#all{
+	width: 1440px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+#head{
+	width: 1440px;
+	float: left;
+	background: skyblue;
+}
+.head-top{
+	width: 100%;
+	float: left;
+	height: 60px;
+
+}
+.head-top .lo {
+	float: left;
+	font-size: 40px;
+}
+.head-top ul {
+	float: right;
+}
+.head-top .dl {
+	float: right;
+}
+.head-top ul li{
+	list-style-type: none;
+	float: left;
+}
+.head-top a{
+	text-decoration: none;
+	color: black;
+}
+.head-top a:hover{
+	color: red;
+}
+.banner{
+	width: 1440px;
+	float: left;
+}
+.banner img{
+	width: 1440px;
+	height: 500px;
+}
+#middle{
+	float: left;
+	width: 1440px;
+	margin: 0 auto;
+}
+.middle-left{
+	width: 400PX;
+	float: left;
+height: 700px;
+background-color: chocolate;
+border-right: 1px solid black;
+	
+}
+.middle-left ul li{
+	list-style-type: none;
+	margin-left: 112px;
+	margin-top: 42px;
+	cursor: pointer;
+}
+.middle-right{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+.right-01{
+	float: left;
+}
+.right-02{
+	float: left;
+	margin: 0 auto;
+}
+.right-02 ul li{
+	list-style-type: none;
+	float: left;
+}
+.right-02 ul{
+	margin: 30px auto;
+}
+
+.right-02 img{
+	width: 210px;
+	height: 210px;
+}
+.right-03{
+	float: left;
+}
+.right-03 ul li{
+	list-style-type: none;
+	float: left;
+	margin: 30px 60px;
+}
+.right-03 img{
+	width:210px;
+	height: 210px;
+}
+
